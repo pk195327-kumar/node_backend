@@ -1,0 +1,19 @@
+{
+  "name": "firstbackend",
+  "version": "1.0.0",
+  "description": "this is my first node.js backend project ",
+  "keywords": [
+    "hardwork"
+  ],
+  "license": "ISC",
+  "author": "parmod kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  }
+}
