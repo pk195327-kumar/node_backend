@@ -7,13 +7,18 @@
   ],
   "license": "ISC",
   "author": "parmod kumar",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "start": "node index.js"
   },
   "dependencies": {
     "express": "^5.1.0",
     "mongoose": "^8.19.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "^3.6.2"
   }
 }
